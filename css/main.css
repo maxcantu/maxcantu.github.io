@@ -581,3 +581,13 @@ padding: 40px 15px;
 	padding: 8px;
 	font-weight: 600;
 }
+
+/* customize colors */
+#myNav a {
+  	color:#444;
+}
+
+#myNav a:hover {
+	background-color: transparent;
+	color: black;	
+}

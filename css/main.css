@@ -591,3 +591,9 @@ padding: 40px 15px;
 	background-color: transparent;
 	color: black;	
 }
+
+.disablescroll, .disablescroll:hover {
+	text-decoration: none;
+	width:auto;
+	margin:0 auto;
+}

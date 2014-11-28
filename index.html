@@ -383,8 +383,10 @@
 <script>
 
 
- $(function() {
+$(function() {
+	// Popover
 	$('img').popover();
+	// Scrollto
     $('.scrollto, .gototop').bind('click',function(event){
 		 var $anchor = $(this);
 		 $('html, body').stop().animate({
@@ -392,17 +394,20 @@
           }, 1500,'easeInOutExpo');
      event.preventDefault();
       });
-    $(".team").hover(function() {
-        $(this).find('.caption2').fadeIn();
-        $(this).find(".caption2").hover(function() {
-	        $(this).find('.caption2').show();
-	    }, function() {
-		    $(this).find('.caption2').fadeOut();
-		});
-    }, function() {
-        $(this).find('.caption2').fadeOut();
+	// Navbar fixed after masthead
+    $(document).on( 'scroll', function(){
+        console.log('scroll top : ' + $(window).scrollTop());
+        if($(window).scrollTop()>=$(".masthead").height())
+        {
+             $(".navbar").addClass("navbar-fixed-top");
+        }
+
+        if($(window).scrollTop()<$(".masthead").height())
+        {
+             $(".navbar").removeClass("navbar-fixed-top");
+        }
     });
-  });
+});
         
 
 </script>

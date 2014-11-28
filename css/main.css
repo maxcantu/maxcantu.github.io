@@ -620,6 +620,9 @@ padding: 40px 15px;
     .mobile-br {
 	    display: block;
     }
+    .mobile-no-br {
+    	display: none;
+	}
 }
 
 .team a {

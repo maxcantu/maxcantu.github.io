@@ -614,3 +614,9 @@ padding: 40px 15px;
         margin: 0;
     }
 }
+
+.list-press {
+	list-style: none;
+	width: 360px;
+	padding: 0px;
+}

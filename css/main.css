@@ -602,6 +602,10 @@ padding: 40px 15px;
 	color: black;
 }
 
+.mobile-br {
+    display: none;
+}
+
 @media (max-width: 767px) {
     .navbar-fixed-top {
         position: relative;
@@ -612,6 +616,9 @@ padding: 40px 15px;
     }
     body {
         margin: 0;
+    }
+    .mobile-br {
+	    display: block;
     }
 }
 

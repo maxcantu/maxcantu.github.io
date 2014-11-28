@@ -601,3 +601,16 @@ padding: 40px 15px;
 .popover {
 	color: black;
 }
+
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+}

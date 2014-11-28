@@ -597,3 +597,7 @@ padding: 40px 15px;
 	width:auto;
 	margin:0 auto;
 }
+
+.popover {
+	color: black;
+}

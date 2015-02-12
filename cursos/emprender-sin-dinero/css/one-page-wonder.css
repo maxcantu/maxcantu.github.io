@@ -73,6 +73,10 @@ footer {
 
 .logo {
 	font-family: Aleo;
+	color: white;
+	font-size: 28px;
+	margin: 0;
+	padding: 8px;
 }
 
 /* Responsive */

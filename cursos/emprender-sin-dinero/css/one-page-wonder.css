@@ -59,6 +59,14 @@ footer {
     margin: 50px 0;
 }
 
+/* Course */
+
+.first > a {
+	border-left: 1px solid #636366;	
+}
+
+/* Responsive */
+
 @media(max-width:1200px) {
     .headline h1 {
         font-size: 140px;

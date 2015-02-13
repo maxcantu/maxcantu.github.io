@@ -164,13 +164,13 @@ footer {
     }
 }
 
-@media(min-width:340px) and (max-width:640px) {
+@media(min-width:340px) and (max-width:765px) {
     .headline {
         padding: 60px 0;
     }
 }
 
-@media(min-width:640px) and (max-width:851px) {
+@media(min-width:766px) and (max-width:851px) {
     .headline {
         padding: 38px 0;
     }

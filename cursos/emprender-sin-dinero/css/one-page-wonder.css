@@ -115,6 +115,11 @@ footer {
 	margin-top: 10px !important;
 }
 
+.box-blue a {
+	color: white;
+	text-decoration: underline;
+}
+
 .list-workshop li {
 	font-size: 18px;
 }

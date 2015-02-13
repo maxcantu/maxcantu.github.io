@@ -187,7 +187,7 @@ footer {
 @media(max-width:574px) {
     .overlay {
 	    height: 914px;
-    }	
+    }
 }
 
 @media(min-width:575px) and (max-width:671px) {
@@ -196,6 +196,9 @@ footer {
     }
     .overlay {
 	    height: 884px;
+    }
+    .form-google {
+	    display: none;
     }
 }
 

@@ -19,7 +19,7 @@ body {
 }
 
 .headline {
-    padding: 60px 0;
+    padding: 75px 0;
 }
 
 .headline h2 {
@@ -172,7 +172,7 @@ footer {
 
 @media(min-width:840px) and (max-width:1200px) {
     .headline {
-        padding: 50px 0;
+        padding: 60px 0;
     }
 }
 

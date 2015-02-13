@@ -124,6 +124,10 @@ footer {
 	font-size: 18px;
 }
 
+.italic {
+	font-style: italic;
+}
+
 /* Responsive */
 
 @media(max-width:1200px) {

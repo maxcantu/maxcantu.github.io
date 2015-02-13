@@ -166,7 +166,10 @@ footer {
 
 @media(min-width:340px) and (max-width:765px) {
     .headline {
-        padding: 60px 0;
+        padding: 10px 0;
+    }
+    .overlay {
+	    height: 710px;
     }
 }
 

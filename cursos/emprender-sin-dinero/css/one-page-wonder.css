@@ -115,6 +115,10 @@ footer {
 	margin-top: 10px !important;
 }
 
+.list-workshop li {
+	font-size: 28px;
+}
+
 /* Responsive */
 
 @media(max-width:1200px) {

@@ -35,7 +35,7 @@ body {
 }
 
 .button-cta {
-	font-size: 18px;
+	font-size: 20px;
 	padding: 12px;
 	background-color: #1fbad6;
 	color: white;
@@ -46,6 +46,14 @@ body {
 	color: white;
 	text-decoration: none;
 	background-color: rgba(30,  188,  215, 0.81);
+}
+
+.headline img {
+	margin-top: 140px;
+}
+
+.headline left {
+	text-align: center;
 }
 
 .featurette-divider {

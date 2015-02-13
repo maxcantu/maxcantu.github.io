@@ -158,7 +158,13 @@ footer {
     }
 }
 
-@media(max-width:671px) {
+@media(min-width:575px) and (max-width:671px) {
+    .overlay {
+	    height: 914px;
+    }	
+}
+
+@media(min-width:575px) and (max-width:671px) {
     .featurette-divider {
         margin: 30px 0;
     }

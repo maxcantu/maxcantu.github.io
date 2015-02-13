@@ -164,7 +164,7 @@ footer {
     }
 }
 
-@media(max-width:640px) {
+@media(min-width:340px) and (max-width:640px) {
     .headline {
         padding: 60px 0;
     }

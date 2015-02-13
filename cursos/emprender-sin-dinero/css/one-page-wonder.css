@@ -158,7 +158,7 @@ footer {
     }
 }
 
-@media(min-width:575px) and (max-width:671px) {
+@media(max-width:574px) {
     .overlay {
 	    height: 914px;
     }	

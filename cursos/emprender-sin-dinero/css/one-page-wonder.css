@@ -142,6 +142,9 @@ footer {
     .featurette-heading {
         font-size: 30px;
     }
+    .headline {
+        padding: 60px 0;
+    }
 }
 
 @media(max-width:768px) {

@@ -188,6 +188,9 @@ footer {
     .overlay {
 	    height: 914px;
     }
+    .form-google {
+	    display: block;
+    }
 }
 
 @media(min-width:575px) and (max-width:671px) {
@@ -209,11 +212,17 @@ footer {
     .overlay {
 	    height: 710px;
     }
+    .form-google {
+	    display: block;
+    }
 }
 
 @media(min-width:766px) and (max-width:851px) {
     .headline {
         padding: 38px 0;
+    }
+    .form-google {
+	    display: block;
     }
 }
 
